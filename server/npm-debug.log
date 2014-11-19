@@ -1,0 +1,453 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'i' ]
+2 info using npm@2.0.0-alpha-5
+3 info using node@v0.10.30
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/ecasilla/development/thinkful/prod-server',
+6 verbose install   [ 'express',
+6 verbose install     'morgan',
+6 verbose install     'body-parser',
+6 verbose install     'method-override',
+6 verbose install     'serve-favicon',
+6 verbose install     'cookie-parser',
+6 verbose install     'express-session',
+6 verbose install     'errorhandler',
+6 verbose install     'compression',
+6 verbose install     'lodash',
+6 verbose install     'ejs',
+6 verbose install     'mongoose',
+6 verbose install     'jsonwebtoken',
+6 verbose install     'express-jwt',
+6 verbose install     'passport',
+6 verbose install     'passport-local',
+6 verbose install     'passport-facebook',
+6 verbose install     'passport-twitter',
+6 verbose install     'passport-google-oauth',
+6 verbose install     'composable-middleware',
+6 verbose install     'connect-mongo',
+6 verbose install     'socket.io',
+6 verbose install     'socket.io-client',
+6 verbose install     'socketio-jwt',
+6 verbose install     'grunt',
+6 verbose install     'grunt-autoprefixer',
+6 verbose install     'grunt-wiredep',
+6 verbose install     'grunt-concurrent',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-contrib-cssmin',
+6 verbose install     'grunt-contrib-htmlmin',
+6 verbose install     'grunt-contrib-imagemin',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-google-cdn',
+6 verbose install     'grunt-newer',
+6 verbose install     'grunt-ng-annotate',
+6 verbose install     'grunt-rev',
+6 verbose install     'grunt-svgmin',
+6 verbose install     'grunt-usemin',
+6 verbose install     'grunt-env',
+6 verbose install     'grunt-node-inspector',
+6 verbose install     'grunt-nodemon',
+6 verbose install     'grunt-angular-templates',
+6 verbose install     'grunt-dom-munger',
+6 verbose install     'grunt-protractor-runner',
+6 verbose install     'grunt-asset-injector',
+6 verbose install     'grunt-karma',
+6 verbose install     'grunt-build-control',
+6 verbose install     'grunt-mocha-test',
+6 verbose install     'jit-grunt',
+6 verbose install     'time-grunt',
+6 verbose install     'grunt-express-server',
+6 verbose install     'grunt-open',
+6 verbose install     'open',
+6 verbose install     'jshint-stylish',
+6 verbose install     'connect-livereload',
+6 verbose install     'karma-ng-scenario',
+6 verbose install     'karma-firefox-launcher',
+6 verbose install     'karma-script-launcher',
+6 verbose install     'karma-html2js-preprocessor',
+6 verbose install     'karma-ng-jade2js-preprocessor',
+6 verbose install     'karma-jasmine',
+6 verbose install     'karma-chrome-launcher',
+6 verbose install     'requirejs',
+6 verbose install     'karma-requirejs',
+6 verbose install     'karma-coffee-preprocessor',
+6 verbose install     'karma-jade-preprocessor',
+6 verbose install     'karma-phantomjs-launcher',
+6 verbose install     'karma',
+6 verbose install     'karma-ng-html2js-preprocessor',
+6 verbose install     'supertest',
+6 verbose install     'should' ] ]
+7 info preinstall prod-server@0.0.0
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping grunt-contrib-copy@~0.5.0 /Users/ecasilla/development/thinkful/prod-server
+10 verbose already installed skipping grunt-contrib-cssmin@~0.9.0 /Users/ecasilla/development/thinkful/prod-server
+11 verbose already installed skipping grunt-contrib-htmlmin@~0.2.0 /Users/ecasilla/development/thinkful/prod-server
+12 verbose already installed skipping grunt-contrib-imagemin@~0.7.1 /Users/ecasilla/development/thinkful/prod-server
+13 verbose already installed skipping grunt-contrib-jshint@~0.10.0 /Users/ecasilla/development/thinkful/prod-server
+14 verbose already installed skipping grunt-contrib-uglify@~0.4.0 /Users/ecasilla/development/thinkful/prod-server
+15 verbose already installed skipping grunt-contrib-watch@~0.6.1 /Users/ecasilla/development/thinkful/prod-server
+16 verbose already installed skipping grunt-google-cdn@~0.4.0 /Users/ecasilla/development/thinkful/prod-server
+17 verbose already installed skipping grunt-newer@~0.7.0 /Users/ecasilla/development/thinkful/prod-server
+18 verbose already installed skipping grunt-ng-annotate@^0.2.3 /Users/ecasilla/development/thinkful/prod-server
+19 verbose already installed skipping grunt-rev@~0.1.0 /Users/ecasilla/development/thinkful/prod-server
+20 verbose already installed skipping grunt-svgmin@~0.4.0 /Users/ecasilla/development/thinkful/prod-server
+21 verbose already installed skipping grunt-usemin@~2.1.1 /Users/ecasilla/development/thinkful/prod-server
+22 verbose already installed skipping grunt-env@~0.4.1 /Users/ecasilla/development/thinkful/prod-server
+23 verbose already installed skipping grunt-node-inspector@~0.1.5 /Users/ecasilla/development/thinkful/prod-server
+24 verbose already installed skipping grunt-nodemon@~0.2.0 /Users/ecasilla/development/thinkful/prod-server
+25 verbose already installed skipping grunt-angular-templates@^0.5.4 /Users/ecasilla/development/thinkful/prod-server
+26 verbose already installed skipping grunt-dom-munger@^3.4.0 /Users/ecasilla/development/thinkful/prod-server
+27 verbose already installed skipping grunt-protractor-runner@^1.1.0 /Users/ecasilla/development/thinkful/prod-server
+28 verbose already installed skipping grunt-asset-injector@^0.1.0 /Users/ecasilla/development/thinkful/prod-server
+29 verbose already installed skipping grunt-karma@~0.8.2 /Users/ecasilla/development/thinkful/prod-server
+30 verbose cache add [ 'grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control',
+30 verbose cache add   null ]
+31 verbose cache add spec="grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control" args=["grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control",null]
+32 verbose already installed skipping grunt-mocha-test@~0.10.2 /Users/ecasilla/development/thinkful/prod-server
+33 verbose already installed skipping jit-grunt@^0.5.0 /Users/ecasilla/development/thinkful/prod-server
+34 verbose already installed skipping time-grunt@~0.3.1 /Users/ecasilla/development/thinkful/prod-server
+35 verbose parsed spec { raw: 'grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control',
+35 verbose parsed spec   scope: null,
+35 verbose parsed spec   name: 'grunt-build-control',
+35 verbose parsed spec   rawSpec: 'git+https://github.com/DaftMonk/grunt-build-control',
+35 verbose parsed spec   spec: 'https://github.com/DaftMonk/grunt-build-control',
+35 verbose parsed spec   type: 'git' }
+36 verbose addRemoteGit u="https://github.com/DaftMonk/grunt-build-control" silent=false
+37 silly addRemoteGit parsed { protocol: 'https:',
+37 silly addRemoteGit   slashes: true,
+37 silly addRemoteGit   auth: null,
+37 silly addRemoteGit   host: 'github.com',
+37 silly addRemoteGit   port: null,
+37 silly addRemoteGit   hostname: 'github.com',
+37 silly addRemoteGit   hash: null,
+37 silly addRemoteGit   search: '',
+37 silly addRemoteGit   query: {},
+37 silly addRemoteGit   pathname: '/DaftMonk/grunt-build-control',
+37 silly addRemoteGit   path: '/DaftMonk/grunt-build-control',
+37 silly addRemoteGit   href: 'https://github.com/DaftMonk/grunt-build-control' }
+38 verbose already installed skipping grunt-express-server@~0.4.17 /Users/ecasilla/development/thinkful/prod-server
+39 verbose already installed skipping grunt-open@~0.2.3 /Users/ecasilla/development/thinkful/prod-server
+40 verbose already installed skipping open@~0.0.4 /Users/ecasilla/development/thinkful/prod-server
+41 silly lockFile 7e4d577b-com-DaftMonk-grunt-build-control https://github.com/DaftMonk/grunt-build-control
+42 verbose lock https://github.com/DaftMonk/grunt-build-control /Users/ecasilla/.npm/7e4d577b-com-DaftMonk-grunt-build-control.lock
+43 verbose already installed skipping jshint-stylish@~0.1.5 /Users/ecasilla/development/thinkful/prod-server
+44 verbose already installed skipping connect-livereload@~0.4.0 /Users/ecasilla/development/thinkful/prod-server
+45 verbose already installed skipping karma-ng-scenario@~0.1.0 /Users/ecasilla/development/thinkful/prod-server
+46 verbose addRemoteGit [ 'https://github.com/DaftMonk/grunt-build-control', 'master' ]
+47 verbose already installed skipping karma-firefox-launcher@~0.1.3 /Users/ecasilla/development/thinkful/prod-server
+48 verbose already installed skipping karma-script-launcher@~0.1.0 /Users/ecasilla/development/thinkful/prod-server
+49 verbose already installed skipping karma-html2js-preprocessor@~0.1.0 /Users/ecasilla/development/thinkful/prod-server
+50 verbose already installed skipping karma-ng-jade2js-preprocessor@^0.1.2 /Users/ecasilla/development/thinkful/prod-server
+51 verbose already installed skipping karma-jasmine@~0.1.5 /Users/ecasilla/development/thinkful/prod-server
+52 verbose already installed skipping karma-chrome-launcher@~0.1.3 /Users/ecasilla/development/thinkful/prod-server
+53 verbose already installed skipping requirejs@~2.1.11 /Users/ecasilla/development/thinkful/prod-server
+54 verbose already installed skipping karma-requirejs@~0.2.1 /Users/ecasilla/development/thinkful/prod-server
+55 verbose already installed skipping karma-coffee-preprocessor@~0.2.1 /Users/ecasilla/development/thinkful/prod-server
+56 verbose already installed skipping karma-jade-preprocessor@0.0.11 /Users/ecasilla/development/thinkful/prod-server
+57 verbose already installed skipping karma-phantomjs-launcher@~0.1.4 /Users/ecasilla/development/thinkful/prod-server
+58 verbose already installed skipping karma@~0.12.9 /Users/ecasilla/development/thinkful/prod-server
+59 verbose already installed skipping karma-ng-html2js-preprocessor@~0.1.0 /Users/ecasilla/development/thinkful/prod-server
+60 verbose already installed skipping supertest@~0.11.0 /Users/ecasilla/development/thinkful/prod-server
+61 verbose already installed skipping should@~3.3.1 /Users/ecasilla/development/thinkful/prod-server
+62 verbose already installed skipping express@~4.0.0 /Users/ecasilla/development/thinkful/prod-server
+63 verbose already installed skipping morgan@~1.0.0 /Users/ecasilla/development/thinkful/prod-server
+64 verbose already installed skipping body-parser@~1.5.0 /Users/ecasilla/development/thinkful/prod-server
+65 verbose already installed skipping method-override@~1.0.0 /Users/ecasilla/development/thinkful/prod-server
+66 verbose already installed skipping serve-favicon@~2.0.1 /Users/ecasilla/development/thinkful/prod-server
+67 verbose git remote.origin.url https://github.com/DaftMonk/grunt-build-control
+68 verbose already installed skipping cookie-parser@~1.0.1 /Users/ecasilla/development/thinkful/prod-server
+69 verbose already installed skipping express-session@~1.0.2 /Users/ecasilla/development/thinkful/prod-server
+70 verbose already installed skipping errorhandler@~1.0.0 /Users/ecasilla/development/thinkful/prod-server
+71 verbose already installed skipping compression@~1.0.1 /Users/ecasilla/development/thinkful/prod-server
+72 verbose already installed skipping lodash@~2.4.1 /Users/ecasilla/development/thinkful/prod-server
+73 verbose already installed skipping ejs@~0.8.4 /Users/ecasilla/development/thinkful/prod-server
+74 verbose already installed skipping mongoose@~3.8.8 /Users/ecasilla/development/thinkful/prod-server
+75 verbose already installed skipping jsonwebtoken@^0.3.0 /Users/ecasilla/development/thinkful/prod-server
+76 verbose already installed skipping express-jwt@^0.1.3 /Users/ecasilla/development/thinkful/prod-server
+77 verbose already installed skipping passport@~0.2.0 /Users/ecasilla/development/thinkful/prod-server
+78 verbose already installed skipping passport-local@~0.1.6 /Users/ecasilla/development/thinkful/prod-server
+79 verbose cache add [ 'passport-facebook@latest', null ]
+80 verbose cache add spec="passport-facebook@latest" args=["passport-facebook@latest",null]
+81 verbose parsed spec { raw: 'passport-facebook@latest',
+81 verbose parsed spec   scope: null,
+81 verbose parsed spec   name: 'passport-facebook',
+81 verbose parsed spec   rawSpec: 'latest',
+81 verbose parsed spec   spec: 'latest',
+81 verbose parsed spec   type: 'tag' }
+82 verbose addNamed [ 'passport-facebook', 'latest' ]
+83 verbose addNamed [ null, null ]
+84 silly lockFile 82ca5952-passport-facebook-latest passport-facebook@latest
+85 verbose lock passport-facebook@latest /Users/ecasilla/.npm/82ca5952-passport-facebook-latest.lock
+86 verbose cache add [ 'passport-twitter@latest', null ]
+87 verbose cache add spec="passport-twitter@latest" args=["passport-twitter@latest",null]
+88 verbose cache add [ 'passport-google-oauth@latest', null ]
+89 verbose cache add spec="passport-google-oauth@latest" args=["passport-google-oauth@latest",null]
+90 verbose parsed spec { raw: 'passport-twitter@latest',
+90 verbose parsed spec   scope: null,
+90 verbose parsed spec   name: 'passport-twitter',
+90 verbose parsed spec   rawSpec: 'latest',
+90 verbose parsed spec   spec: 'latest',
+90 verbose parsed spec   type: 'tag' }
+91 verbose addNamed [ 'passport-twitter', 'latest' ]
+92 verbose addNamed [ null, null ]
+93 silly lockFile d5de964c-passport-twitter-latest passport-twitter@latest
+94 verbose lock passport-twitter@latest /Users/ecasilla/.npm/d5de964c-passport-twitter-latest.lock
+95 verbose already installed skipping composable-middleware@^0.3.0 /Users/ecasilla/development/thinkful/prod-server
+96 verbose already installed skipping connect-mongo@^0.4.1 /Users/ecasilla/development/thinkful/prod-server
+97 verbose already installed skipping socket.io@^1.0.6 /Users/ecasilla/development/thinkful/prod-server
+98 verbose parsed spec { raw: 'passport-google-oauth@latest',
+98 verbose parsed spec   scope: null,
+98 verbose parsed spec   name: 'passport-google-oauth',
+98 verbose parsed spec   rawSpec: 'latest',
+98 verbose parsed spec   spec: 'latest',
+98 verbose parsed spec   type: 'tag' }
+99 verbose addNamed [ 'passport-google-oauth', 'latest' ]
+100 verbose addNamed [ null, null ]
+101 silly lockFile 2c491da3-passport-google-oauth-latest passport-google-oauth@latest
+102 verbose lock passport-google-oauth@latest /Users/ecasilla/.npm/2c491da3-passport-google-oauth-latest.lock
+103 info addNameTag [ 'passport-facebook', 'latest' ]
+104 verbose mapToRegistry name passport-facebook
+105 verbose mapToRegistry uri https://registry.npmjs.org/passport-facebook
+106 verbose already installed skipping socket.io-client@^1.0.6 /Users/ecasilla/development/thinkful/prod-server
+107 verbose already installed skipping socketio-jwt@^2.0.2 /Users/ecasilla/development/thinkful/prod-server
+108 verbose already installed skipping grunt@~0.4.4 /Users/ecasilla/development/thinkful/prod-server
+109 verbose already installed skipping grunt-autoprefixer@~0.7.2 /Users/ecasilla/development/thinkful/prod-server
+110 verbose already installed skipping grunt-wiredep@~1.8.0 /Users/ecasilla/development/thinkful/prod-server
+111 verbose already installed skipping grunt-concurrent@~0.5.0 /Users/ecasilla/development/thinkful/prod-server
+112 info addNameTag [ 'passport-twitter', 'latest' ]
+113 verbose mapToRegistry name passport-twitter
+114 verbose mapToRegistry uri https://registry.npmjs.org/passport-twitter
+115 verbose already installed skipping grunt-contrib-clean@~0.5.0 /Users/ecasilla/development/thinkful/prod-server
+116 verbose already installed skipping grunt-contrib-concat@~0.4.0 /Users/ecasilla/development/thinkful/prod-server
+117 info addNameTag [ 'passport-google-oauth', 'latest' ]
+118 verbose mapToRegistry name passport-google-oauth
+119 verbose mapToRegistry uri https://registry.npmjs.org/passport-google-oauth
+120 verbose request where is /passport-google-oauth
+121 verbose request registry https://registry.npmjs.org/
+122 verbose request id d5072146766b62ec
+123 verbose request url raw /passport-google-oauth
+124 verbose request url resolving [ 'https://registry.npmjs.org/', './passport-google-oauth' ]
+125 verbose request url resolved https://registry.npmjs.org/passport-google-oauth
+126 verbose request where is https://registry.npmjs.org/passport-google-oauth
+127 verbose request no basic auth needed
+128 info trying registry request attempt 1 at 22:06:24
+129 verbose etag "CNH1HR2EP7JOPTNOKQR95WBCR"
+130 http GET https://registry.npmjs.org/passport-google-oauth
+131 verbose request where is /passport-facebook
+132 verbose request registry https://registry.npmjs.org/
+133 verbose request url raw /passport-facebook
+134 verbose request url resolving [ 'https://registry.npmjs.org/', './passport-facebook' ]
+135 verbose request url resolved https://registry.npmjs.org/passport-facebook
+136 verbose request where is https://registry.npmjs.org/passport-facebook
+137 verbose request no basic auth needed
+138 info trying registry request attempt 1 at 22:06:24
+139 verbose etag "3X8OKKBLSLK9O9GPF6FZLB1XW"
+140 http GET https://registry.npmjs.org/passport-facebook
+141 verbose request where is /passport-twitter
+142 verbose request registry https://registry.npmjs.org/
+143 verbose request url raw /passport-twitter
+144 verbose request url resolving [ 'https://registry.npmjs.org/', './passport-twitter' ]
+145 verbose request url resolved https://registry.npmjs.org/passport-twitter
+146 verbose request where is https://registry.npmjs.org/passport-twitter
+147 verbose request no basic auth needed
+148 info trying registry request attempt 1 at 22:06:24
+149 verbose etag "D6OXY6VP3GYN5QYO3PS9VCMKV"
+150 http GET https://registry.npmjs.org/passport-twitter
+151 http 304 https://registry.npmjs.org/passport-google-oauth
+152 silly registry.get cb [ 304,
+152 silly registry.get   { date: 'Wed, 19 Nov 2014 01:06:26 GMT',
+152 silly registry.get     server: 'Apache',
+152 silly registry.get     via: '1.1 varnish',
+152 silly registry.get     'last-modified': 'Wed, 19 Nov 2014 01:06:26 GMT',
+152 silly registry.get     'cache-control': 'max-age=60',
+152 silly registry.get     etag: '"CNH1HR2EP7JOPTNOKQR95WBCR"',
+152 silly registry.get     age: '5',
+152 silly registry.get     'x-served-by': 'cache-iad2137-IAD',
+152 silly registry.get     'x-cache': 'HIT',
+152 silly registry.get     'x-cache-hits': '1',
+152 silly registry.get     'x-timer': 'S1416359186.111383,VS0,VE0',
+152 silly registry.get     vary: 'Accept',
+152 silly registry.get     'content-length': '0',
+152 silly registry.get     'keep-alive': 'timeout=10, max=50',
+152 silly registry.get     connection: 'Keep-Alive' } ]
+153 verbose etag https://registry.npmjs.org/passport-google-oauth from cache
+154 http 304 https://registry.npmjs.org/passport-twitter
+155 silly registry.get cb [ 304,
+155 silly registry.get   { date: 'Wed, 19 Nov 2014 01:06:26 GMT',
+155 silly registry.get     server: 'Apache',
+155 silly registry.get     via: '1.1 varnish',
+155 silly registry.get     'last-modified': 'Wed, 19 Nov 2014 01:06:26 GMT',
+155 silly registry.get     'cache-control': 'max-age=60',
+155 silly registry.get     etag: '"D6OXY6VP3GYN5QYO3PS9VCMKV"',
+155 silly registry.get     age: '5',
+155 silly registry.get     'x-served-by': 'cache-iad2138-IAD',
+155 silly registry.get     'x-cache': 'HIT',
+155 silly registry.get     'x-cache-hits': '1',
+155 silly registry.get     'x-timer': 'S1416359186.112891,VS0,VE0',
+155 silly registry.get     vary: 'Accept',
+155 silly registry.get     'content-length': '0',
+155 silly registry.get     'keep-alive': 'timeout=10, max=50',
+155 silly registry.get     connection: 'Keep-Alive' } ]
+156 verbose etag https://registry.npmjs.org/passport-twitter from cache
+157 http 304 https://registry.npmjs.org/passport-facebook
+158 silly registry.get cb [ 304,
+158 silly registry.get   { date: 'Wed, 19 Nov 2014 01:06:26 GMT',
+158 silly registry.get     server: 'Apache',
+158 silly registry.get     via: '1.1 varnish',
+158 silly registry.get     'last-modified': 'Wed, 19 Nov 2014 01:06:26 GMT',
+158 silly registry.get     'cache-control': 'max-age=60',
+158 silly registry.get     etag: '"3X8OKKBLSLK9O9GPF6FZLB1XW"',
+158 silly registry.get     age: '5',
+158 silly registry.get     'x-served-by': 'cache-iad2145-IAD',
+158 silly registry.get     'x-cache': 'HIT',
+158 silly registry.get     'x-cache-hits': '1',
+158 silly registry.get     'x-timer': 'S1416359186.153163,VS0,VE0',
+158 silly registry.get     vary: 'Accept',
+158 silly registry.get     'content-length': '0',
+158 silly registry.get     'keep-alive': 'timeout=10, max=50',
+158 silly registry.get     connection: 'Keep-Alive' } ]
+159 verbose etag https://registry.npmjs.org/passport-facebook from cache
+160 verbose addNamed [ 'passport-google-oauth', '0.1.5' ]
+161 verbose addNamed [ '0.1.5', '0.1.5' ]
+162 silly lockFile 3fbba456-passport-google-oauth-0-1-5 passport-google-oauth@0.1.5
+163 verbose lock passport-google-oauth@0.1.5 /Users/ecasilla/.npm/3fbba456-passport-google-oauth-0-1-5.lock
+164 verbose addNamed [ 'passport-twitter', '1.0.2' ]
+165 verbose addNamed [ '1.0.2', '1.0.2' ]
+166 silly lockFile 50fcdf9c-passport-twitter-1-0-2 passport-twitter@1.0.2
+167 verbose lock passport-twitter@1.0.2 /Users/ecasilla/.npm/50fcdf9c-passport-twitter-1-0-2.lock
+168 verbose addNamed [ 'passport-facebook', '1.0.3' ]
+169 verbose addNamed [ '1.0.3', '1.0.3' ]
+170 silly lockFile 3e2a96bb-passport-facebook-1-0-3 passport-facebook@1.0.3
+171 verbose lock passport-facebook@1.0.3 /Users/ecasilla/.npm/3e2a96bb-passport-facebook-1-0-3.lock
+172 silly lockFile 3fbba456-passport-google-oauth-0-1-5 passport-google-oauth@0.1.5
+173 silly lockFile 3fbba456-passport-google-oauth-0-1-5 passport-google-oauth@0.1.5
+174 silly lockFile 50fcdf9c-passport-twitter-1-0-2 passport-twitter@1.0.2
+175 silly lockFile 50fcdf9c-passport-twitter-1-0-2 passport-twitter@1.0.2
+176 silly lockFile 2c491da3-passport-google-oauth-latest passport-google-oauth@latest
+177 silly lockFile 2c491da3-passport-google-oauth-latest passport-google-oauth@latest
+178 silly lockFile d5de964c-passport-twitter-latest passport-twitter@latest
+179 silly lockFile d5de964c-passport-twitter-latest passport-twitter@latest
+180 silly lockFile 3e2a96bb-passport-facebook-1-0-3 passport-facebook@1.0.3
+181 silly lockFile 3e2a96bb-passport-facebook-1-0-3 passport-facebook@1.0.3
+182 silly lockFile 82ca5952-passport-facebook-latest passport-facebook@latest
+183 silly lockFile 82ca5952-passport-facebook-latest passport-facebook@latest
+184 info already installed passport-google-oauth@0.1.5
+185 info already installed passport-twitter@1.0.2
+186 info already installed passport-facebook@1.0.3
+187 verbose git fetch -a origin (https://github.com/DaftMonk/grunt-build-control)
+188 verbose git rev-list -n1 master 3d03ebbe49f8f963ef43c50af1084a15f56611fa
+189 verbose resolved git url https://github.com/DaftMonk/grunt-build-control#3d03ebbe49f8f963ef43c50af1084a15f56611fa
+190 verbose tar unpack /var/folders/k2/t4_mxvxs5n7gcm_872xh2yhh0000gn/T/npm-37154-5z6TSnTZ/1416359186391-0.8564091064035892/tmp.tgz
+191 silly lockFile 529d1d8c--8564091064035892-tmp-tgz-unpack tar:///var/folders/k2/t4_mxvxs5n7gcm_872xh2yhh0000gn/T/npm-37154-5z6TSnTZ/1416359186391-0.8564091064035892/tmp.tgz-unpack
+192 verbose lock tar:///var/folders/k2/t4_mxvxs5n7gcm_872xh2yhh0000gn/T/npm-37154-5z6TSnTZ/1416359186391-0.8564091064035892/tmp.tgz-unpack /Users/ecasilla/.npm/529d1d8c--8564091064035892-tmp-tgz-unpack.lock
+193 silly lockFile 48c8ed33-86391-0-8564091064035892-tmp-tgz tar:///var/folders/k2/t4_mxvxs5n7gcm_872xh2yhh0000gn/T/npm-37154-5z6TSnTZ/1416359186391-0.8564091064035892/tmp.tgz
+194 verbose lock tar:///var/folders/k2/t4_mxvxs5n7gcm_872xh2yhh0000gn/T/npm-37154-5z6TSnTZ/1416359186391-0.8564091064035892/tmp.tgz /Users/ecasilla/.npm/48c8ed33-86391-0-8564091064035892-tmp-tgz.lock
+195 verbose gentlyRm vacuuming /var/folders/k2/t4_mxvxs5n7gcm_872xh2yhh0000gn/T/npm-37154-5z6TSnTZ/1416359186391-0.8564091064035892/tmp.tgz-unpack
+196 silly gunzTarPerm modes [ '755', '644' ]
+197 silly gunzTarPerm extractEntry
+198 silly gunzTarPerm modified mode [ '', 509, 493 ]
+199 silly gunzTarPerm extractEntry .gitignore
+200 silly gunzTarPerm modified mode [ '.gitignore', 436, 420 ]
+201 silly gunzTarPerm extractEntry .jshintrc
+202 silly gunzTarPerm modified mode [ '.jshintrc', 436, 420 ]
+203 silly gunzTarPerm extractEntry Gruntfile.js
+204 silly gunzTarPerm modified mode [ 'Gruntfile.js', 436, 420 ]
+205 silly gunzTarPerm extractEntry LICENSE
+206 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+207 silly gunzTarPerm extractEntry README.md
+208 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+209 silly gunzTarPerm extractEntry package.json
+210 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+211 silly gunzTarPerm extractEntry tasks/
+212 silly gunzTarPerm modified mode [ 'tasks/', 509, 493 ]
+213 silly gunzTarPerm extractEntry tasks/build_control.js
+214 silly gunzTarPerm modified mode [ 'tasks/build_control.js', 436, 420 ]
+215 silly gunzTarPerm extractEntry test/
+216 silly gunzTarPerm modified mode [ 'test/', 509, 493 ]
+217 silly gunzTarPerm extractEntry test/build_control_test.js
+218 silly gunzTarPerm modified mode [ 'test/build_control_test.js', 436, 420 ]
+219 silly gunzTarPerm extractEntry test/expected/
+220 silly gunzTarPerm modified mode [ 'test/expected/', 509, 493 ]
+221 silly gunzTarPerm extractEntry test/expected/custom_options
+222 silly gunzTarPerm modified mode [ 'test/expected/custom_options', 436, 420 ]
+223 silly gunzTarPerm extractEntry test/expected/default_options
+224 silly gunzTarPerm modified mode [ 'test/expected/default_options', 436, 420 ]
+225 silly gunzTarPerm extractEntry test/fixtures/
+226 silly gunzTarPerm modified mode [ 'test/fixtures/', 509, 493 ]
+227 silly gunzTarPerm extractEntry test/fixtures/123
+228 silly gunzTarPerm modified mode [ 'test/fixtures/123', 436, 420 ]
+229 silly gunzTarPerm extractEntry test/fixtures/testing
+230 silly gunzTarPerm modified mode [ 'test/fixtures/testing', 436, 420 ]
+231 silly lockFile 529d1d8c--8564091064035892-tmp-tgz-unpack tar:///var/folders/k2/t4_mxvxs5n7gcm_872xh2yhh0000gn/T/npm-37154-5z6TSnTZ/1416359186391-0.8564091064035892/tmp.tgz-unpack
+232 silly lockFile 529d1d8c--8564091064035892-tmp-tgz-unpack tar:///var/folders/k2/t4_mxvxs5n7gcm_872xh2yhh0000gn/T/npm-37154-5z6TSnTZ/1416359186391-0.8564091064035892/tmp.tgz-unpack
+233 silly lockFile 48c8ed33-86391-0-8564091064035892-tmp-tgz tar:///var/folders/k2/t4_mxvxs5n7gcm_872xh2yhh0000gn/T/npm-37154-5z6TSnTZ/1416359186391-0.8564091064035892/tmp.tgz
+234 silly lockFile 48c8ed33-86391-0-8564091064035892-tmp-tgz tar:///var/folders/k2/t4_mxvxs5n7gcm_872xh2yhh0000gn/T/npm-37154-5z6TSnTZ/1416359186391-0.8564091064035892/tmp.tgz
+235 silly lockFile 7e4d577b-com-DaftMonk-grunt-build-control https://github.com/DaftMonk/grunt-build-control
+236 silly lockFile 7e4d577b-com-DaftMonk-grunt-build-control https://github.com/DaftMonk/grunt-build-control
+237 silly resolved [ { name: 'grunt-build-control',
+237 silly resolved     description: 'Automate version control tasks for your project\'s built code. Keep built code in sync with source code, maintain multiple branches of built code, commit with automatic messages, and push to remote repositories.',
+237 silly resolved     version: '0.1.3',
+237 silly resolved     homepage: 'https://github.com/robwierzbowski/grunt-build-control',
+237 silly resolved     author:
+237 silly resolved      { name: 'Rob Wierzbowski',
+237 silly resolved        email: 'hello@robwierzbowski.com',
+237 silly resolved        url: 'http://robwierzbowski' },
+237 silly resolved     repository:
+237 silly resolved      { type: 'git',
+237 silly resolved        url: 'git://github.com/robwierzbowski/grunt-build-control.git' },
+237 silly resolved     bugs: { url: 'https://github.com/robwierzbowski/grunt-build-control/issues' },
+237 silly resolved     licenses: [ [Object] ],
+237 silly resolved     main: 'Gruntfile.js',
+237 silly resolved     engines: { node: '>= 0.10.0' },
+237 silly resolved     scripts: { test: 'grunt test' },
+237 silly resolved     dependencies: { shelljs: '~0.2.6' },
+237 silly resolved     devDependencies:
+237 silly resolved      { 'grunt-contrib-jshint': '~0.1.1',
+237 silly resolved        'grunt-contrib-clean': '~0.4.0',
+237 silly resolved        'grunt-contrib-nodeunit': '~0.1.2',
+237 silly resolved        grunt: '~0.4.1' },
+237 silly resolved     peerDependencies: { grunt: '~0.4.1' },
+237 silly resolved     keywords: [ 'gruntplugin' ],
+237 silly resolved     readme: '# grunt-build-control\n\n> Version control built code.\n\n### HELP WRITE TESTS FOR THIS TASK\n\nFor continued development, this library needs test coverage. If you like writing tests and like this Grunt task, please take a look at [issue #19](https://github.com/robwierzbowski/grunt-build-control/issues/19) and consider helping with a pull request. Any assistance is appreciated.\n\n## Getting started\n\nThis plugin requires [Grunt](http://gruntjs.com/) `~0.4.0` and [Git](http://git-scm.com/) `> 1.8`.\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide which explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with Grunt you can install the plugin with the command:\n\n```shell\nnpm install grunt-build-control --save-dev\n```\n\nAfter the plugin has been installed, load it in your Gruntfile with:\n\n```js\ngrunt.loadNpmTasks(\'grunt-build-control\');\n```\n\n## buildcontrol task\n\n_Run this task with the `grunt buildcontrol` command._\n\nAutomate version control tasks for your project\'s built code. \n\nKeep built code in sync with source code, maintain multiple branches of built code, commit with automatic messages, and push to remote repositories.\n\n### Setup\n\nYour project must have a compile or build process that outputs code to a subdirectory of the main project.\n\nAdd the build directory to the main project\'s .gitignore, and make sure the build process doesn\'t delete .git directories inside the build directory. If you\'re using a [Yeoman](http://yeoman.io) generator these steps are taken care of for you already.\n\n### Options\n\n#### dir\n\nType: `String`  \nDefault: `dist`  \n\nThe directory that contains your built code.\n\n#### branch\n\nType: `String`  \nDefault: `dist`  \n\nThe branch to commit to.\n\n#### remote\n\nType: `String`  \nDefault: `../`  \n\nThe remote to push to. Common examples include a distribution repository (Heroku or Scalr), your main project\'s remote (gh-pages branch on Github), or the local project repository itself (`../`).\n\n#### commit\n\nType: `Boolean`  \nDefault: `false`  \n\nCommits built code to `branch`. A new commit is only created if the built code has changed.\n\n#### tag\n\nType: `Boolean` or `String`  \nDefault: `false`  \n\nIf set to a string, adds its value as a lightweight git tag to the local built repo. Try loading your project\'s package.json as a variable and tagging with `pkg.version`.\n\n#### push\n\nType: `Boolean`  \nDefault: `false`  \n\nPushes `branch` to `remote`. If `tag` is set, pushes the specified tag as well.\n\n#### message\n\nType: `String`  \nDefault: `Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%  `\n\nThe commit message to use when committing. It must be a safe commit message for the command line, with special characters and double quotes escaped.\n\nYou can use the following tokens to print information about the main project:\n\n- `%sourceName%`: The main project\'s name, read from package.json or the project directory\n- `%sourceBranch%`: The main project\'s current branch\n- `%sourceCommit%`: The main project\'s most recent commit\n\n#### connectCommits\n\nType: `Boolean`  \nDefault: `true`  \n\nMake sure that every commit on the built code branch matches a commit on the main project branch. If the main project\'s working directory has uncommitted changes, a commit task will throw an error.\n\n### Usage\n\nA common use of grunt-build-control is to commit and push built code to the GitHub pages branch of the main repository, or to the master branch of a git-based deployment server like Heroku. \n\n```js\n// Project configuration.\nvar pkg = require(\'./package.json\');\n\ngrunt.initConfig({\n\n  // Various Grunt tasks...\n\n  buildcontrol: {\n    options: {\n      dir: \'dist\',\n      commit: true,\n      push: true,\n      message: \'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%\'\n    },\n    pages: {\n      options: {\n        remote: \'git@github.com:example_user/example_webapp.git\',\n        branch: \'gh-pages\'\n      }\n    },\n    heroku: {\n      options: {\n        remote: \'git@heroku.com:example-heroku-webapp-1988.git\',\n        branch: \'master\',\n        tag: pkg.version\n      }\n    },\n    local: {\n      options: {\n        remote: \'../\',\n        branch: \'build\'\n      }\n    }\n  }\n});\n\ngrunt.registerTask(\'build\', [\n  // Collection of tasks that build code to the \'dist\' directory...\n]);\n```\n\nIn this example a user is working on a Yeoman-based web app, with their project\'s source code hosted at `git@github.com:example_user/example_webapp.git`. To deploy they first run `grunt build` to build a minified, optimized version of their app into the \'dist\' directory. \n\nRunning `grunt buildcontrol:pages` commits the built code to the gh-pages branch of the \'dist/.git\' repository and pushes to the gh-pages branch of `git@github.com:example_user/example_webapp.git`. \n\nRunning `grunt buildcontrol:heroku` will commit the built code to the master branch of the \'dist/.git\' repository, tag the latest commit in \'dist/.git\' with the value of `pkg.version` if the tag doesn\'t already exist, and push refs and tags to the master branch of `git@heroku.com:example-heroku-webapp-1988.git`.\n\nRunning `grunt buildcontrol:local` will commit the built code to the build branch of the \'dist/.git\' repository and push to the build branch of the local source code repository. The local project repository can then be synced with a remote.\n\n#### Working with .gitignores\n\nYou may wish to commit files or directories that are ignored globally or in the source repository (e.g., bower_compontents), or make file inclusion and exclusion the responsibility of the build process alone.\n\nIn order to scope gitignore rules to the build directory only, create a file named \'gitignore\' in your source directory: \n\n```shell\n# Unignore everything\n!**/*\n\n# Re-ignore things\n...your ignore rules here\n```\n\nThen copy it to the build directory during your build process as \'.gitignore\'.\n\n#### Notes\n\nGrunt-build-control deploys to git endpoints. If you want to deploy to a private server [this tutorial by @curtisblackwell ](http://curtisblackwell.com/blog/my-deploy-method-brings-most-of-the-boys-to-the-yard) is a good place to start.\n\n`buildcontrol` will add commits on top of the existing history of the remote branch if available.\n\n`buildcontrol` is a synchronous task, and fetches from your remote before each commit or push. Depending on the location of your remote, the size of commits, and network speed it can be a long running task.\n\nIt\'s best to run `buildcontrol` manually after your build process or as the last step in a build and deploy task.\n\nIf a git conflict occurs (usually because another user has force-pushed to the deployment server) delete the built code directory and run build and build control again.\n\nDon\'t check out built code branches while in the main project directory. Differences in untracked files will cause issues.\n\n<!-- \n## Todo:\n\n- replace as many porcelain commands as possible with plumbing.\n- describe or list similar projects with limitations?  \n  https://npmjs.org/package/grunt-github-pages  \n  https://npmjs.org/package/grunt-git-dist  \n  https://npmjs.org/package/grunt-git-selective-deploy  \n\n-->\n \n## Contribute\n\nPost bugs and feature requests to the [Github issue tracker](https://github.com/robwierzbowski/grunt-build-control/issues). In lieu of a formal styleguide, take care to maintain the existing coding style. Lint and test your code using [Grunt](https://github.com/gruntjs/grunt).\n\n## Release History\n\n- 2013-11-29 v0.1.2: Add defaults for all properties.\n- 2013-10-19 v0.1.1: Stable initial release.\n\n## License\n\n[MIT](http://en.wikipedia.org/wiki/MIT_License)\n\n\n\n[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/robwierzbowski/grunt-build-control/trend.png)](https://bitdeli.com/free "Bitdeli Badge")\n\n',
+237 silly resolved     readmeFilename: 'README.md',
+237 silly resolved     _id: 'grunt-build-control@0.1.3',
+237 silly resolved     _shasum: '850cb95f88d61e3dec7372c0b266ee1ecda240bb',
+237 silly resolved     _resolved: 'https://github.com/DaftMonk/grunt-build-control#3d03ebbe49f8f963ef43c50af1084a15f56611fa',
+237 silly resolved     _from: 'grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control' } ]
+238 info install grunt-build-control@0.1.3 into /Users/ecasilla/development/thinkful/prod-server
+239 info installOne grunt-build-control@0.1.3
+240 verbose node_modules/grunt-build-control unbuild
+241 info preuninstall grunt-build-control@0.1.3
+242 info uninstall grunt-build-control@0.1.3
+243 verbose true,/Users/ecasilla/development/thinkful/prod-server/node_modules,/Users/ecasilla/development/thinkful/prod-server/node_modules unbuild grunt-build-control@0.1.3
+244 info postuninstall grunt-build-control@0.1.3
+245 verbose gentlyRm vacuuming /Users/ecasilla/development/thinkful/prod-server/node_modules/grunt-build-control
+246 silly gentlyRm purging /Users/ecasilla/development/thinkful/prod-server/node_modules/grunt-build-control
+247 verbose node_modules/grunt-build-control unbuild
+248 verbose gentlyRm vacuuming /Users/ecasilla/development/thinkful/prod-server/node_modules/grunt-build-control
+249 silly gentlyRm purging /Users/ecasilla/development/thinkful/prod-server/node_modules/grunt-build-control
+250 error error rolling back Error: EACCES, unlink '/Users/ecasilla/development/thinkful/prod-server/node_modules/grunt-build-control/node_modules/.bin/shjs'
+250 error error rolling back  grunt-build-control@0.1.3 { [Error: EACCES, unlink '/Users/ecasilla/development/thinkful/prod-server/node_modules/grunt-build-control/node_modules/.bin/shjs']
+250 error error rolling back   errno: 3,
+250 error error rolling back   code: 'EACCES',
+250 error error rolling back   path: '/Users/ecasilla/development/thinkful/prod-server/node_modules/grunt-build-control/node_modules/.bin/shjs' }
+251 error Error: EACCES, unlink '/Users/ecasilla/development/thinkful/prod-server/node_modules/grunt-build-control/node_modules/.bin/shjs'
+251 error  { [Error: EACCES, unlink '/Users/ecasilla/development/thinkful/prod-server/node_modules/grunt-build-control/node_modules/.bin/shjs']
+251 error   errno: 3,
+251 error   code: 'EACCES',
+251 error   path: '/Users/ecasilla/development/thinkful/prod-server/node_modules/grunt-build-control/node_modules/.bin/shjs' }
+252 error Please try running this command again as root/Administrator.
+253 error System Darwin 14.0.0
+254 error command "node" "/usr/local/bin/npm" "i"
+255 error cwd /Users/ecasilla/development/thinkful/prod-server/server
+256 error node -v v0.10.30
+257 error npm -v 2.0.0-alpha-5
+258 error path /Users/ecasilla/development/thinkful/prod-server/node_modules/grunt-build-control/node_modules/.bin/shjs
+259 error code EACCES
+260 error errno 3
+261 error stack Error: EACCES, unlink '/Users/ecasilla/development/thinkful/prod-server/node_modules/grunt-build-control/node_modules/.bin/shjs'
+262 verbose exit [ 3, true ]
